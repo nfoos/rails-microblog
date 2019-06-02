@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bigdecimal'
+gem 'jquery-rails'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
