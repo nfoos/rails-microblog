@@ -1,4 +1,6 @@
-FROM registry.cmmint.net/cmm/centos7-ruby24:latest
+FROM ruby
+
+WORKDIR /app/
 
 COPY Gemfile Gemfile.lock /app/
 RUN bundle install
