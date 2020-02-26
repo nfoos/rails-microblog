@@ -81,7 +81,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.5)
-    crass (1.0.4)
+    crass (1.0.5)
     erubi (1.8.0)
     execjs (2.7.0)
     faker (1.9.6)
@@ -102,7 +102,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
-    loofah (2.2.3)
+    loofah (2.3.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -126,8 +126,8 @@ GEM
       mini_portile2 (~> 2.4.0)
     pg (1.1.4)
     public_suffix (3.1.1)
-    puma (3.12.1)
-    rack (2.0.7)
+    puma (3.12.2)
+    rack (2.0.8)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (5.2.3)
@@ -235,7 +235,7 @@ DEPENDENCIES
   mini_magick (>= 4.9.4)
   mini_racer
   pg (>= 0.18, < 2.0)
-  puma (~> 3.11)
+  puma (~> 3.12)
   rails (~> 5.2.3)
   rails-controller-testing
   sassc-rails
