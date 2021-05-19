@@ -5,7 +5,7 @@ ruby '~> 2.6.0'
 
 gem 'rails', '~> 5.2.3'
 gem 'bootstrap-sass'
-gem 'puma', '~> 3.12'
+gem 'puma', '~> 4.3'
 gem 'sassc-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'mini_racer', platforms: :ruby
